@@ -25,10 +25,10 @@
 
 class apache_tester::content {
 file { '/var/www/html/test.html':
-    ensure  => file,
+	  ensure  => file,
     owner   => 'root',
     group   => 'root',
     mode    => '0644',
-    content => 'Hello world',
+    content => 'Hello world!',
   }
 }

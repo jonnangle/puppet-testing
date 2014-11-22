@@ -6,4 +6,4 @@
 # entirely)
 #
 # In summary - mess everything up
-# iptables -I INPUT 1 -i lo -p tcp --dport 80 -j REJECT
+iptables -I INPUT 1 -i lo -p tcp --dport 80 -j REJECT
